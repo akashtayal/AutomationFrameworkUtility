@@ -1,0 +1,44 @@
+[
+{
+	"userName": "testuser",
+	"firstName": "akash",
+	"lastName": "tayal",
+	"phoneNo":[	{
+			"number": 9899456123
+	}, 	{
+			"number": 9899454123
+	}	],
+	"emailID": "akashtayal999@gmail.com",
+	"address": {
+		"houseNo": 23,
+		"streetName": "kamla, road",
+		"city":"kavinagar",
+		"state": "uttar pradesh",
+		"pin":201002
+		
+	}	
+},
+{
+	"userName": "testUser2",
+	"firstName": "kamal",
+	"lastName": "kumar",
+	"phoneNo":[	{
+			"number": 8766456123
+	}, 	{
+			"number": 7867454123
+	}	],
+	"emailID": "kamalkumarl999@gmail.com",
+	"address": {
+		"houseNo": 23,
+		"streetName": "kamla, road",
+		"city":"kavinagar",
+		"state": "uttar pradesh",
+		"pin":201002
+		
+	}	
+}
+
+
+
+
+]
