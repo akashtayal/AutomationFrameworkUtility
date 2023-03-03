@@ -1,13 +1,13 @@
 package com.learning.api.jackson;
 
-public class UserDetails {
+public class UserDetailsPOJO {
 	
 	private String userName;
 	private String firstName;
 	private String lastName;
 	private String emailID;
-	private Address address;
-	private PhoneNo[] phoneNo;
+	private AddressPOJO address;
+	private PhoneNoPOJO[] phoneNo;
 	
 	
 	public String getUserName() {
@@ -34,16 +34,16 @@ public class UserDetails {
 	public void setEmailID(String emailID) {
 		this.emailID = emailID;
 	}
-	public Address getAddress() {
+	public AddressPOJO getAddress() {
 		return address;
 	}
-	public void setAddress(Address address) {
+	public void setAddress(AddressPOJO address) {
 		this.address = address;
 	}
-	public PhoneNo[] getPhoneNo() {
+	public PhoneNoPOJO[] getPhoneNo() {
 		return phoneNo;
 	}
-	public void setPhoneNo(PhoneNo[] phoneNo) {
+	public void setPhoneNo(PhoneNoPOJO[] phoneNo) {
 		this.phoneNo = phoneNo;
 	}
 	

@@ -2,6 +2,9 @@ package com.learning.api.jackson;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -82,5 +85,16 @@ public class JacksonReader {
 		return objectMapper.readValue(file, classVar.arrayType());
 		
 	}
+	
+	//Refer to the file attached UserDetails.json
+		public Map<String,Object> readJsonArrayToMap(File file) throws JsonParseException, JsonMappingException, IOException {
+			
+			ObjectMapper objectMapper = new ObjectMapper();
+			objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+			objectMapper.configure(DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES, false);
+			return objectMapper.readValue(file, new TypeReference<Map<String,Object>>() {});
+			
+			
+		}
 	
 }

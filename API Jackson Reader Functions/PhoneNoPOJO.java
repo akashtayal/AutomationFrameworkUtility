@@ -1,6 +1,6 @@
 package com.learning.api.jackson;
 
-public class PhoneNo {
+public class PhoneNoPOJO {
 
 	private long number;
 

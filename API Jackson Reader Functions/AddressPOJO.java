@@ -1,6 +1,6 @@
 package com.learning.api.jackson;
 
-public class Address {
+public class AddressPOJO {
 
 	private int houseNo;
 	private String streetName;
