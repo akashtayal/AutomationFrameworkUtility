@@ -1,0 +1,19 @@
+{
+	"userName": "testuser",
+	"firstName": "akash",
+	"lastName": "tayal",
+	"phoneNo":[	{
+			"number": 9899456123
+	}, 	{
+			"number": 9899454123
+	}	],
+	"emailID": "akashtayal999@gmail.com",
+	"address": {
+		"houseNo": 23,
+		"streetName": "kamla, road",
+		"city":"kavinagar",
+		"state": "uttar pradesh",
+		"pin":201002
+		
+	}	
+}
